@@ -1,8 +1,8 @@
-# ⚡ hBcComandos de Godot Nakama Multiplayer Agent Skill ()
+# ⚡ Comandos de Godot Nakama Multiplayer Agent Skill (`godot-nakama-agent-skill`)
 
 | Comando | Acción | Descripción |
 |---|---|---|
-|  | Bootstrap | Inicializa el cliente de Nakama en Godot. |
-|  | Auditoría | Auditoría de sockets, RPCs, matchmaking y estado multijugador. |
-|  | Aprendizaje | Registrar propuesta de mejora específica para  en  |
-|  | Revisión | Clasificar e inspeccionar propuestas de aprendizaje acumuladas en  |
+| `$nakama` | Bootstrap | Inicializa el cliente de Nakama en Godot. |
+| `$nakama:audit` | Auditoría | Auditoría de sockets, RPCs, matchmaking y estado multijugador. |
+| `$learnskill godot-nakama-agent-skill [propuesta]` | Aprendizaje | Registrar propuesta de mejora específica para `godot-nakama-agent-skill` en `overview/learning.md` |
+| `$revlearnskill` | Revisión | Clasificar e inspeccionar propuestas de aprendizaje acumuladas en `overview/learning.md` |
