@@ -1,8 +1,9 @@
-# ⚡ Comandos de Godot Nakama Multiplayer Agent Skill (`godot-nakama-agent-skill`)
+# Comandos — Godot 4 Nakama Multiplayer Agent Skill
 
 | Comando | Acción | Descripción |
 |---|---|---|
-| `$nakama` | Bootstrap | Inicializa el cliente de Nakama en Godot. |
-| `$nakama:audit` | Auditoría | Auditoría de sockets, RPCs, matchmaking y estado multijugador. |
-| `$learnskill godot-nakama-agent-skill [propuesta]` | Aprendizaje | Registrar propuesta de mejora específica para `godot-nakama-agent-skill` en `overview/learning.md` |
-| `$revlearnskill` | Revisión | Clasificar e inspeccionar propuestas de aprendizaje acumuladas en `overview/learning.md` |
+| `$nakama` | Bootstrap | Activa reglas y patrones de Nakama para Godot 4. |
+| `$nakama:audit` | Auditoría | Detecta sockets sin cierre en `_exit_tree()`, sesiones sin refresh, server key expuesta y lógica no autoritativa. |
+| `$nakama:match` | Matches | Guía matches autoritativos vs relayed y opcodes tipados. |
+
+> Los comandos de gobernanza (`$learnskill`, `$revlearnskill`, `$boot`, `$close`) pertenecen al core `*-agent-rules` del proyecto.

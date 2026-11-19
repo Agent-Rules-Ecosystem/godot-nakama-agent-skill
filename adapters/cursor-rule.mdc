@@ -1,1 +1,7 @@
-﻿---\ndescription: Nakama rule\nglobs: [\
+---
+description: Nakama client/session lifecycle, token refresh, realtime sockets, authoritative matches, RPCs and clean socket teardown in Godot 4. ($nakama)
+globs: ["**/*.gd", "**/nakama/**"]
+alwaysApply: false
+---
+
+Read and follow `.skill/godot-nakama-agent-skill/AGENTS.md` and `.skill/godot-nakama-agent-skill/SKILL.md`.
